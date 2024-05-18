@@ -4,6 +4,7 @@ import { Analytics } from "./components/Analytics";
 import { Strategic } from "./components/Strategic";
 import { Efficiency } from "./components/efficiency";
 import { Data } from "./components/Data";
+import { Control } from "./components/Control";
 
 export const Home = () => {
     return <Layout>
@@ -12,5 +13,6 @@ export const Home = () => {
         <Strategic />
         <Efficiency />
         <Data />
+        <Control />
     </Layout>
 }
