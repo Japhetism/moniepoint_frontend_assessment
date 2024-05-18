@@ -15,7 +15,7 @@ export const Control = () => {
                 </div>
             </div>
             <div className="flex flex-col items-center">
-                <div className="w-20 h-20 font-bold text-gray-700 rounded-3xl bg-red-500 flex items-center justify-center mt-10">
+                <div className="w-20 h-20 font-bold text-gray-700 rounded-3xl bg-red-500 flex items-center justify-center mt-10 mb-10">
                     <img src="/assets/images/logo.png" className="w-10 h-10"  />
                 </div>
                 <p className="text-8xl mb-10">Get Started</p>
