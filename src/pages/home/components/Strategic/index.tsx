@@ -1,6 +1,6 @@
 export const Strategic = () => {
     return (
-        <div className="mt-28 bg-gray-100 pt-20 pr-10 pl-10 mb-40 h-lvh" style={{borderRadius: "70px"}}>
+        <div className="mt-28 bg-gray-100 pt-20 pr-10 pl-10 mb-40 pb-10" style={{borderRadius: "70px"}}>
             <div className="flex flex-row space-x-10">
                 <div className="w-8/12">
                     <div>
