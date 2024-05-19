@@ -9,12 +9,12 @@ import { Footer } from "../components/Footer";
 
 export const Home = () => {
     return <Layout>
-        {/* <Header />
+        <Header />
         <Analytics />
         <Strategic />
-        <Efficiency /> */}
+        <Efficiency />
         <Idea />
-        {/* <GetStarted />
-        <Footer /> */}
+        <GetStarted />
+        <Footer />
     </Layout>
 }
