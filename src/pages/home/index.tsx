@@ -4,7 +4,7 @@ import { Analytics } from "./components/Analytics";
 import { Strategic } from "./components/Strategic";
 import { Efficiency } from "./components/efficiency";
 import { Data } from "./components/Data";
-import { Control } from "./components/Control";
+import { GetStarted } from "./components/GetStarted";
 import { Footer } from "../components/Footer";
 
 export const Home = () => {
@@ -14,7 +14,7 @@ export const Home = () => {
         <Strategic />
         <Efficiency />
         <Data />
-        <Control />
+        <GetStarted />
         <Footer />
     </Layout>
 }
