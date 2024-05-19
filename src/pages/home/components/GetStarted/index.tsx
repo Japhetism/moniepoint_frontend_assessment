@@ -1,3 +1,5 @@
+import { Button } from "../../../components/Button";
+
 export const GetStarted = () => {
     return (
         <div className="container-fluid mt-28 pt-20 pr-10 pl-10 mb-40 pb-10">
@@ -79,7 +81,10 @@ export const GetStarted = () => {
                             <div className="mt-10">
                                 <p className="text-neutral-500 text-xs mb-5">Total profit</p>
                                 <p className="mb-5"><span>$&nbsp;</span><span className="text-3xl">264,2K</span></p>
-                                <button className="px-6 py-3 bg-yellow-500 rounded-lg text-xs">Data Visualization</button>
+                                <Button
+                                    className="px-6 py-3 bg-yellow-500 rounded-lg text-xs"
+                                    name="Data Visualization"
+                                />
                             </div>
                         </div>
                     </div>
@@ -95,10 +100,16 @@ export const GetStarted = () => {
                 <p className="font-thin text-gray-500 text-center">Turn information into advantage! Start using <br/>Ramos today. Sign up for a free trial.</p>
                 <div className="flex flex-row justify-between items-center space-x-2 mt-10">
                     <div>
-                        <button className="bg-gray-100 pt-2 pb-2 pr-8 pl-8 rounded-lg text-sm font-thin">Request a demo</button>
+                        <Button
+                            className="bg-gray-100 pt-2 pb-2 pr-8 pl-8 rounded-lg text-sm font-thin"
+                            name="Request a demo"
+                        />
                     </div>
                     <div>
-                        <button className="bg-red-500 pt-2 pb-2 pr-8 pl-8 rounded-lg text-sm text-white font-thin">Start for free</button>
+                        <Button
+                            className="bg-red-500 pt-2 pb-2 pr-8 pl-8 rounded-lg text-sm text-white font-thin"
+                            name="Start for free"
+                        />
                     </div>
                 </div>
             </div>

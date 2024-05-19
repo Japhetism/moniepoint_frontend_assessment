@@ -1,3 +1,5 @@
+import { Button } from "../../../components/Button"
+
 export const TrafficSources = () => {
     return (
         <div className="container-fluid mt-28 pt-20 pr-10 pl-10 mb-40 pb-10">
@@ -29,10 +31,16 @@ export const TrafficSources = () => {
                 </div>
                 <div className="flex flex-row justify-between items-center space-x-2 mt-10 md:mt-0">
                     <div>
-                        <button className="bg-gray-100 pt-2 pb-2 pr-8 pl-8 rounded-lg text-sm font-thin">Request a demo</button>
+                        <Button
+                            className="bg-gray-100 pt-2 pb-2 pr-8 pl-8 rounded-lg text-sm font-thin"
+                            name="Request a demo"
+                        />
                     </div>
                     <div>
-                        <button className="bg-red-500 pt-2 pb-2 pr-8 pl-8 rounded-lg text-sm text-white font-thin">Start for free</button>
+                        <Button
+                            className="bg-red-500 pt-2 pb-2 pr-8 pl-8 rounded-lg text-sm text-white font-thin"
+                            name="Start for free"
+                        />
                     </div>
                 </div>
             </div>

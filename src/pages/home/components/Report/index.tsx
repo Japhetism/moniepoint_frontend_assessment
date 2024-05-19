@@ -1,3 +1,5 @@
+import { Button } from "../../../components/Button";
+
 export const Report = () => {
     return (
         <div className="container-fluid mt-28 bg-gray-100 pt-20 pr-10 pl-10 mb-40 pb-10" style={{borderRadius: "70px"}}>
@@ -18,7 +20,10 @@ export const Report = () => {
                     <div className="bg-white rounded-3xl flex flex-col md:flex-row justify-between">
                         <div className="w-12/12 md:w-6/12">
                             <div className="p-10">
-                                <button className="bg-yellow-400 p-3 rounded-xl mb-10 text-xs md:text-sm">Setting up reports</button>
+                                <Button
+                                    className="bg-yellow-400 p-3 rounded-xl mb-10 text-xs md:text-sm"
+                                    name="Setting up reports"
+                                />
                                 <div className="w-10/12 mt-10 md:mt-20">
                                     <p className="text-2xl md:text-3xl">Fast and easy access to analytics</p>
                                 </div>
