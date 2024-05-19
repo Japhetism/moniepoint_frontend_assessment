@@ -67,10 +67,10 @@ export const Report = () => {
                                 </div>
                                 <div className="flex flex-row justify between space-x-2 items-center mt-5">
                                     <div>
-                                        <img src="/assets/images/lady.png" alt="max price image" className="w-10 h-10 rounded-full" />
+                                        <img src="/assets/images/lady.png" alt="user" className="w-10 h-10 rounded-full" />
                                     </div>
                                     <div>
-                                        <img src="/assets/images/lady.png" alt="max price image" className="w-10 h-10 rounded-full" />
+                                        <img src="/assets/images/lady.png" alt="user" className="w-10 h-10 rounded-full" />
                                     </div>
                                 </div>
                             </div>

@@ -29,7 +29,7 @@ export const GetStarted = () => {
                                     <div className="flex flex-row justify-between mt-5">
                                         <div className="flex flex-row justify between space-x-2 items-center">
                                             <div>
-                                                <img src="/assets/images/lady_back.png" alt="max price image" className="w-6 h-6 rounded-full" />
+                                                <img src="/assets/images/lady_back.png" alt="minimum price" className="w-6 h-6 rounded-full" />
                                             </div>
                                             <div className="text-neutral-500 text-xs">
                                                 <p>Min. price</p>
@@ -42,7 +42,7 @@ export const GetStarted = () => {
                                     <div className="flex flex-row justify-between mt-5">
                                         <div className="flex flex-row justify-between space-x-2 items-center">
                                             <div>
-                                                <img src="/assets/images/lady.png" alt="max price image" className="w-6 h-6 rounded-full" />
+                                                <img src="/assets/images/lady.png" alt="maximum price" className="w-6 h-6 rounded-full" />
                                             </div>
                                             <div className="text-neutral-500 text-xs">
                                                 <p>Max. price</p>
@@ -89,7 +89,7 @@ export const GetStarted = () => {
             </div>
             <div className="flex flex-col items-center">
                 <div className="w-20 h-20 font-bold text-gray-700 rounded-3xl bg-red-500 flex items-center justify-center mt-10 mb-10">
-                    <img src="/assets/images/logo.png" className="w-10 h-10"  />
+                    <img src="/assets/images/logo.png" alt="logo" className="w-10 h-10"  />
                 </div>
                 <p className="text-5xl md:text-8xl mb-10">Get Started</p>
                 <p className="font-thin text-gray-500 text-center">Turn information into advantage! Start using <br/>Ramos today. Sign up for a free trial.</p>
